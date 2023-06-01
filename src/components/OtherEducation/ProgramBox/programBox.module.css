@@ -1,0 +1,24 @@
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.introSection {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.nameText {
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+@media screen and (min-width: 400px) {
+}
+
+@media screen and (min-width: 900px) {
+	.nameText {
+		font-weight: unset;
+	}
+}

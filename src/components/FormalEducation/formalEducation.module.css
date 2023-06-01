@@ -1,0 +1,40 @@
+.container {
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.titleSection {
+	flex-basis: 2rem;
+	flex-grow: 0;
+	flex-shrink: 0;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.schoolList {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	row-gap: 1rem;
+}
+
+@media screen and (min-width: 400px) {
+}
+
+@media screen and (min-width: 900px) {
+	.container {
+		margin-top: 2rem;
+		flex-direction: row;
+		align-items: unset;
+	}
+	.titleSection {
+		flex-basis: 6rem;
+	}
+	.altTitleSection {
+		display: none;
+	}
+}
