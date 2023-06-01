@@ -1,2 +1,50 @@
 .container {
+	display: flex;
+	align-items: stretch;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.titleRegion {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 5rem;
+	width: 100%;
+	font-size: 2rem;
+}
+
+.imageRegion {
+	max-width: 100%;
+	margin-bottom: 2rem;
+}
+
+.theImage {
+	width: 100%;
+	position: relative;
+}
+
+.welcomeSection {
+	padding: 0 1rem;
+	text-align: justify;
+	margin-bottom: 2rem;
+	font-size: 0.75rem;
+}
+
+@media screen and (min-width: 400px) {
+	.welcomeSection {
+		padding: 0 2rem;
+		font-size: 1rem;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.container {
+		margin: auto;
+		max-width: 1200px;
+		padding-bottom: 5rem;
+	}
 }
