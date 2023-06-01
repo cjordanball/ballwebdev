@@ -1,0 +1,38 @@
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	height: 100%;
+}
+
+.imageSection {
+	display: none;
+}
+
+.textSection {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	align-items: center;
+}
+
+.nameField {
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+
+@media screen and (min-width: 400px) {
+}
+
+@media screen and (min-width: 900px) {
+	.imageSection {
+		display: block;
+		height: 100%;
+	}
+
+	.textSection {
+		align-items: flex-end;
+		flex: unset;
+	}
+}

@@ -1,0 +1,33 @@
+.container {
+	display: none;
+}
+
+.headlineRegion {
+	width: 100%;
+	row-gap: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.headlineText {
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+
+.highlights {
+	font-size: 1.25rem;
+}
+
+@media screen and (min-width: 400px) {
+}
+
+@media screen and (min-width: 900px) {
+	.container {
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+		justify-content: center;
+		padding-top: 1rem;
+	}
+}

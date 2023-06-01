@@ -1,0 +1,45 @@
+.container {
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.titleSection {
+	display: none;
+	flex-basis: 2rem;
+	flex-grow: 0;
+	flex-shrink: 0;
+	font-size: 1.5rem;
+}
+
+.altTitleSection {
+	flex-basis: 2rem;
+	flex-grow: 0;
+	flex-shrink: 0;
+	font-size: 1.5rem;
+}
+
+.jobListSection {
+	display: flex;
+	flex-direction: column;
+	row-gap: 1rem;
+}
+
+@media screen and (min-width: 400px) {
+}
+
+@media screen and (min-width: 900px) {
+	.container {
+		margin-top: 2rem;
+		flex-direction: row;
+	}
+	.titleSection {
+		display: unset;
+		flex-basis: 6rem;
+		font-size: 1.5rem;
+	}
+	.altTitleSection {
+		display: none;
+	}
+}

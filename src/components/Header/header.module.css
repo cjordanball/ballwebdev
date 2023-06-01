@@ -1,0 +1,28 @@
+.firstContainer {
+	display: flex;
+	flex-direction: column;
+	background-color: transparent;
+	width: 100%;
+}
+
+.postContainer {
+	display: none;
+	background-color: transparent;
+	width: 100%;
+}
+
+@media screen and (min-width: 400px) {
+}
+
+@media screen and (min-width: 900px) {
+	.firstContainer {
+		flex-direction: row;
+		height: 8rem;
+	}
+
+	.postContainer {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
+}
