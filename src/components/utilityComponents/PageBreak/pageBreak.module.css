@@ -1,0 +1,16 @@
+.container {
+	page-break-after: always;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+@media screen and (min-width: 400px) {
+}
+
+@media screen and (min-width: 900px) {
+	.container {
+		page-break-after: always;
+		padding-bottom: 2rem;
+		padding-top: 2rem;
+	}
+}

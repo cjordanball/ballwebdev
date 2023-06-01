@@ -1,0 +1,46 @@
+.container {
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.titleSection {
+	flex-basis: 2rem;
+	flex-grow: 0;
+	flex-shrink: 0;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.introSection {
+	margin-bottom: 1.5rem;
+}
+
+.courseItem {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	font-size: 0.75rem;
+}
+
+@media screen and (min-width: 400px) {
+}
+
+@media screen and (min-width: 900px) {
+	.container {
+		flex-direction: row;
+		margin-top: 2rem;
+		row-gap: unset;
+	}
+	.titleSection {
+		flex-basis: 6rem;
+		font-size: 1.5rem;
+		align-items: unset;
+	}
+
+	.courseItem {
+		font-size: 1rem;
+	}
+}
